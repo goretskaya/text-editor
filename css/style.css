@@ -1,0 +1,180 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #464f54;
+	position: relative;
+	padding-top: 150px;
+}
+
+.wrapper{
+	max-width: 1060px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 185px 115px 30px 130px;
+}
+
+.header-info,
+.header-info a{
+	font-family: proxima_nova, arial, sans-serif;
+	color: #b4b4b4;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.article-title{
+	font-size: 80px;
+	text-transform: uppercase;
+	font-family: futurapt, sans-serif;
+	margin: 0.57em 0 0;
+}
+
+.article-author{
+	text-transform: uppercase;
+	letter-spacing: 0.219em;
+}
+
+.article-desc{
+	font-family: georgia, serif;
+	font-size: 30px;
+	color: #8f8f8f;
+}
+
+.header{
+	margin-bottom: 55px;
+}
+
+.article-content p{
+	font-size: 26px;
+	line-height: 1.5;
+	
+}
+
+.article-content{
+	text-align: justify;
+}
+
+.form-editor{
+	position: absolute;
+	right: 0;
+	max-width: 878px;
+	width: 80%;
+	top: 48px;
+}
+
+.form-title{
+	height: 188px;
+	background-color: #181818;
+	padding: 50px 0 50px 60px;
+	position: relative;
+}
+
+.form-input{
+	display: block;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #303030;
+	font-size: 48px;
+	font-family: "Playfair Display", serif;
+	color: #fefefe;
+	line-height: 1.9583;
+	width: 100%;
+}
+
+.form-label{
+	position: absolute;
+	left: 50px;
+	top: 60px;
+	color: #767676;
+	text-transform: uppercase;
+	font-family: futurapt, sans-serif;
+}
+
+.form-bottom{
+	height: 78px;
+	background-color: #f9bf2d;
+	padding: 0 43px;
+	display: flex;
+	-webkit-align-items: center;
+	        align-items: center;
+	width: calc(100% - 65px);
+	margin-left: 65px;
+}
+
+.form-text-decoration{
+	width: 33px;
+	height: 33px;
+	font-size: 22px;
+	background-color: transparent;
+	border: none;
+	opacity: .5;
+	color: #FFF;
+	padding: 0;
+	cursor: pointer;
+
+}
+
+
+
+.form-text-decoration:hover,
+.form-text-decoration:focus{
+	opacity: 1;
+}
+
+.text-decoration-color{
+	text-decoration: uppercase;
+	text-decoration: underline;
+}
+
+
+.text-decoration-uppercase small{
+	font-size: 60%;
+
+}
+.text-decoration-bold{
+	font-weight: bold;
+
+}
+.text-decoration-italic{
+	font-style: italic;
+
+}
+.text-decoration-underline{
+	text-decoration: underline;
+
+}
+
+.form-text-decoration span{
+	display: block;
+	height: 3px;
+	background-color: #FFF;
+	margin-bottom: 3px;
+	width: 28px;
+}
+
+.form-text-decoration span:last-child{
+	margin-bottom: 0;
+}
+
+.form-text-decoration + .form-text-decoration{
+	margin-left: 32px;
+}
+
+.text-decoration-left span:nth-child(even){
+	width: 20px;
+}
+
+.text-decoration-center span:nth-child(even){
+	width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
